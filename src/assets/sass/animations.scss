@@ -1,0 +1,22 @@
+.ef-float{
+    animation: floating 4s ease-in-out infinite;
+}
+@keyframes floating {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+}
+.ef-scale{
+    animation: scaling 2s ease-in-out infinite;
+}
+@keyframes scaling {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+}
