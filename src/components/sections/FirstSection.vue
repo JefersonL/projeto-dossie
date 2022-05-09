@@ -84,7 +84,6 @@ export default {};
     transition: 0.2s;
     border: none;
     &:hover {
-      //transform: scale(1.1);
       border-bottom: 4px solid;
       border-width: 4px;
       border-image-slice: 1;
